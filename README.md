@@ -1,27 +1,52 @@
-# Mp20231020TodoMa
+# Speedcoding Mini Projects
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+- Project id: mini-prj-20231020-todo-ma
+- Chapter id: main
+- Chapter name: Base initial state
+- Source: YTB: Monsterlessons Academy (April 1, 2021) : https://www.youtube.com/watch?v=uyTC0Skvvls
+- 3rd Party: 
+-   - Based on TodoMVC website :  https://todomvc.com/
+-   - Use the global CSS styles copy them from :  https://github.com/monsterlessonsacademy/monsterlessonsacademy/blob/87-angular-todo-list-app/src/styles.css
 
-## Development server
+## About Micro Projects
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Welcome to Speedcoding Micro Projects
+- Micro projects are between 5 to 10 hours depending on your skill.
+- They focus on 2 or more Angular skills
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Skill goals :
+- - (1) RxJS
+- - (2) Angular design patterns
 
-## Build
+## App display:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  ## Screenshot of initial page before user interaction :
 
-## Running unit tests
+-
+## Interaction with app:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-
+## Screenshot after interaction :
 
-## Running end-to-end tests
+## Your task :
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- (1) 
+- (2) 
+- (3) 
 
-## Further help
+## Included in the starter branch :
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Data for the PhotoData class :
+
+### Refrences :
+
+(1) Project starter:
+
+- GitHub link: https://github.com/SpeedCodeNpo/mini-prj-20231020-todo-ma
+- Stackblitz link:
+
+(2) Project solution:
+
+- GitHub link: 
+- Stackblitz link:
