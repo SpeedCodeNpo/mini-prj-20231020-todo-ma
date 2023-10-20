@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-00-setup
-- Chapter video link: https://youtu.be/uyTC0Skvvls?list=PLEjh-YiSBCDKGda3XaiRZ9iRxWSia6Z3h&t=381
+- Chapter / Branch name: chp-01-todos-module
+- Chapter video link: https://youtu.be/uyTC0Skvvls?list=PLEjh-YiSBCDKGda3XaiRZ9iRxWSia6Z3h&t=834
 
 
 ## Sources
@@ -23,7 +23,8 @@
 - - (1) RxJS
 - - (2) Angular design patterns
 
-## App display:
+## This chapter (01) :
+- We create a todos module
 
   ## Screenshot of initial page before user interaction :
 
