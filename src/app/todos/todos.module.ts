@@ -10,6 +10,9 @@ import { TodosComponent } from '../todos/todos.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    TodosComponent
   ]
 })
 export class TodosModule { }
