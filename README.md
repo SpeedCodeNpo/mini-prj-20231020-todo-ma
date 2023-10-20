@@ -1,12 +1,16 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter id: main
-- Chapter name: Base initial state
+- Chapter / Branch name: chp-00-setup
+- Chapter video link: https://youtu.be/uyTC0Skvvls?list=PLEjh-YiSBCDKGda3XaiRZ9iRxWSia6Z3h&t=381
+
+
+## Sources
 - Source: YTB: Monsterlessons Academy (April 1, 2021) : https://www.youtube.com/watch?v=uyTC0Skvvls
 - 3rd Party: 
 -   - Based on TodoMVC website :  https://todomvc.com/
--   - Use the global CSS styles copy them from :  https://github.com/monsterlessonsacademy/monsterlessonsacademy/blob/87-angular-todo-list-app/src/styles.css
+-   - Use the global CSS styles copy them from : 
+    - https://github.com/monsterlessonsacademy/monsterlessonsacademy/blob/87-angular-todo-list-app/src/styles.css
 
 ## About Micro Projects
 
