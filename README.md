@@ -1,7 +1,7 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-01-todos-module
+- Chapter / Branch name: chp-01-todos-component
 - Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=154
 
 
