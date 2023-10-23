@@ -5,14 +5,10 @@ import { TodosComponent } from '../todos/todos.component';
 
 
 @NgModule({
-  declarations: [
-    TodosComponent
-  ],
-  imports: [
-    CommonModule
-  ],
-  exports: [
-    TodosComponent
-  ]
+    imports: [
+        CommonModule,
+    ],
+    exports: [
+    ]
 })
 export class TodosModule { }

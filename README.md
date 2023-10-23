@@ -2,11 +2,11 @@
 
 - Project id: mini-prj-20231020-todo-ma
 - Chapter / Branch name: chp-01-todos-module
-- Chapter video link: https://youtu.be/uyTC0Skvvls?list=PLEjh-YiSBCDKGda3XaiRZ9iRxWSia6Z3h&t=834
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=154
 
 
 ## Sources
-- Source: YTB: Monsterlessons Academy (April 1, 2021) : https://www.youtube.com/watch?v=uyTC0Skvvls
+- Source: YTB: Monsterlessons Academy (April 1, 2021) : https://www.youtube.com/watch?v=wq4ZlpEg5jw
 - 3rd Party: 
 -   - Based on TodoMVC website :  https://todomvc.com/
 -   - Use the global CSS styles copy them from : 
@@ -20,8 +20,8 @@
 
 
 ## Skill goals :
-- - (1) RxJS
-- - (2) Angular design patterns
+- - (1) Standalone
+- - (2) Signals
 
 ## This chapter (01) :
 - We create a todos module
