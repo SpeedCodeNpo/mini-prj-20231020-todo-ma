@@ -17,6 +17,7 @@
 - Welcome to Speedcoding Micro Projects
 - Micro projects are between 5 to 10 hours depending on your skill.
 - They focus on 2 or more Angular skills
+- - -
 
 
 ## Skill goals :
