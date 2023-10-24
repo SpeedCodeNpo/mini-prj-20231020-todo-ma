@@ -1,9 +1,6 @@
 import { Component, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from '../header/header.component';
-import { FooterComponent } from '../footer/footer.component';
 import { TodosService } from '../../services/todo.service';
-import { computeMsgId } from '@angular/compiler';
 import { FilterEnum } from '../../types/filter.enum';
 
 @Component({
@@ -26,7 +23,6 @@ export class MainComponent {
       return todos.filter( todoItem => todoItem.isCompleted)
     }
     return todos;
-
   });
 
 }
