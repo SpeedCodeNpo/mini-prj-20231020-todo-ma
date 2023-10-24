@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-03-main-render-todos
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=842
+- Chapter / Branch name: chp-04-filter-todo-list
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=968
 
 
 ## Sources
@@ -24,10 +24,11 @@
 - - (1) Standalone
 - - (2) Signals
 
-## This chapter (01) :
-- Display the existing todos in the maincomponent's html, without styling.
-
-
+## This chapter :
+- Create an enum for the filters
+- Create a filter signal
+- Use the compute method to add logic for filtering the todoSignal
+- In the main component create a visibleTodos that will hold the list of todos determined by the filter signal.
 
 ### Refrences :
 

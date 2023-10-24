@@ -1,8 +1,8 @@
 <p>main works!</p>
 <section class="main">
     <ul class="todo-list">
-        <div *ngFor="let todo of todosService.todoSignal$()">
-            {{ todo.todoText }}
+        <div *ngFor="let todoItem of visibleTodos()">
+            {{ todoItem.todoText }}
         </div>
     </ul>
 </section>
