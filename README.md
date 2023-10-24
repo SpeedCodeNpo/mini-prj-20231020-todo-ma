@@ -2,7 +2,7 @@
 
 - Project id: mini-prj-20231020-todo-ma
 - Chapter / Branch name: chp-01-todos-component
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=154
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=372
 
 
 ## Sources
@@ -25,9 +25,9 @@
 - - (2) Signals
 
 ## This chapter (01) :
-- We create a todos SA component
-- we create a folder to host the todos component's child components
-- We wireup empty components header, main & footer
+- We create an interface for the todo data model class
+- We create a service to manage the todo data (CRUD)
+- We modify the header component's html to enable adding a todo using Angular signals
 
 ### Refrences :
 
