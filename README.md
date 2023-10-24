@@ -28,6 +28,7 @@
 - We create an interface for the todo data model class
 - We create a service to manage the todo data (CRUD)
 - We modify the header component's html to enable adding a todo using Angular signals
+- We display the array of todos in console
 
 ### Refrences :
 
