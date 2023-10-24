@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-01-todos-component
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=372
+- Chapter / Branch name: chp-03-main-render-todos
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=842
 
 
 ## Sources
@@ -25,10 +25,9 @@
 - - (2) Signals
 
 ## This chapter (01) :
-- We create an interface for the todo data model class
-- We create a service to manage the todo data (CRUD)
-- We modify the header component's html to enable adding a todo using Angular signals
-- We display the array of todos in console
+- Display the existing todos in the maincomponent's html, without styling.
+
+
 
 ### Refrences :
 

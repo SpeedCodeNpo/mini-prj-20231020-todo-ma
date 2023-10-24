@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
+import { TodosService } from '../../services/todo.service';
 
 @Component({
   selector: 'app-main',
@@ -10,5 +11,6 @@ import { FooterComponent } from '../footer/footer.component';
   templateUrl: './main.component.html',
 })
 export class MainComponent {
+  todosService = inject(TodosService);
 
 }
