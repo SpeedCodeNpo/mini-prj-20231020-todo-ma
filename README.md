@@ -25,25 +25,9 @@
 - - (2) Signals
 
 ## This chapter (01) :
-- We create a todos module
-
-  ## Screenshot of initial page before user interaction :
-
--
-## Interaction with app:
-
--
-## Screenshot after interaction :
-
-## Your task :
-
-- (1) 
-- (2) 
-- (3) 
-
-## Included in the starter branch :
-
-## Data for the PhotoData class :
+- We create a todos SA component
+- we create a folder to host the todos component's child components
+- We wireup empty components header, main & footer
 
 ### Refrences :
 
