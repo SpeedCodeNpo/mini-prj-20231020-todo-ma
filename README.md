@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-06-footer-counter-and-hide
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=1542
+- Chapter / Branch name: chp-07-todo-comp
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=1741
 
 
 ## Sources
@@ -25,9 +25,8 @@
 - - (2) Signals
 
 ## This chapter :
-- We add a counter of how mant tasks are still active
-- We add logic in html to hide the footer when no tasks exist
-- We add logic for the items left text to show plural 's' when more than 1
+- We implement a todo component for a single todo item in the main comp list.
+- We wireup the new component into the main comp html, passing each todoItem from the *ngFor to the todo component.
 
 
 ### Refrences :

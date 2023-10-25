@@ -2,11 +2,12 @@ import { Component, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TodosService } from '../../services/todo.service';
 import { FilterEnum } from '../../types/filter.enum';
+import { TodoComponent } from '../todo/todo.component';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TodoComponent],
   templateUrl: './main.component.html',
 })
 export class MainComponent {

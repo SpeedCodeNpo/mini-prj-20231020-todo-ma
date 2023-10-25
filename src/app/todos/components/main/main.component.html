@@ -1,8 +1,6 @@
 <!-- <p>main works!</p> -->
 <section class="main">
-    <ul class="todo-list">
-        <div *ngFor="let todoItem of visibleTodos()">
-            {{ todoItem.todoText }}
-        </div>
-    </ul>
+  <ul class="todo-list">
+    <app-todos-todo *ngFor="let todoItem of visibleTodos()" [todoObject]="todoItem"></app-todos-todo>
+  </ul>
 </section>
