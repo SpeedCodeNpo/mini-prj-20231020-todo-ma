@@ -25,10 +25,9 @@
 - - (2) Signals
 
 ## This chapter :
-- We add a counter to the footer.
-- We add logic in html to hide the footer when no tasks exist
 - We add a counter of how mant tasks are still active
-- We dd logic for the items left text to show plural 's' when more than 1
+- We add logic in html to hide the footer when no tasks exist
+- We add logic for the items left text to show plural 's' when more than 1
 
 
 ### Refrences :
