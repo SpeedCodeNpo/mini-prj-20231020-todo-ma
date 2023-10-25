@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-05-footer-filter-controls
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=1215
+- Chapter / Branch name: chp-06-footer-counter-and-hide
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=1542
 
 
 ## Sources
@@ -25,10 +25,10 @@
 - - (2) Signals
 
 ## This chapter :
-- Create a footer that displays 3 filter buttons.
-- Update the service to add a changeFilter method.
-- In the footer html render the selected filter.
-
+- We add a counter to the footer.
+- We add logic in html to hide the footer when no tasks exist
+- We add a counter of how mant tasks are still active
+- We dd logic for the items left text to show plural 's' when more than 1
 
 
 ### Refrences :

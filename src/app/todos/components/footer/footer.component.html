@@ -1,5 +1,9 @@
 <!-- <p>footer works!</p> -->
-<footer class="footer">
+<footer class="footer" [ngClass]="{hidden: isHideFooter()}">
+    <span class="todo-count">
+        <strong>{{ activeCount() }} </strong>
+        {{ itemsLeftText() }}
+        </span>
     <ul class="filters">
         <li>
             <a href="/" [ngClass]="{selected: filterSignalFooter() === filterEnum.all}" (click)="changeFilter($event, filterEnum.all)">All</a>
