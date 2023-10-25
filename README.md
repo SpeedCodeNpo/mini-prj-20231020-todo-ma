@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-04-filter-todo-list
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=968
+- Chapter / Branch name: chp-05-footer-filter-controls
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=1215
 
 
 ## Sources
@@ -25,10 +25,11 @@
 - - (2) Signals
 
 ## This chapter :
-- Create an enum for the filters
-- Create a filter signal
-- Use the compute method to add logic for filtering the todoSignal
-- In the main component create a visibleTodos that will hold the list of todos determined by the filter signal.
+- Create a footer that displays 3 filter buttons.
+- Update the service to add a changeFilter method.
+- In the footer html render the selected filter.
+
+
 
 ### Refrences :
 

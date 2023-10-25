@@ -20,5 +20,7 @@ export class TodosService {
     this.todoSignal$.update(todos => [...todos, newTodo]);
   }
 
-  
+  changeFilterSvc(newFilter: FilterEnum): void{
+    this.filterSignal$.set(newFilter);
+  }
 }
