@@ -8,6 +8,7 @@
   <ng-container *ngIf="isEditingTodo">
     <input
       class="edit"
+      #todoTextInput
       type="text"
       [value]="editingText"
       (keyup)="changeText($event)"

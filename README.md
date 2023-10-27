@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-10-completed-todo
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=2497
+- Chapter / Branch name: chp-11-auto-focus-edit
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=2665
 
 
 ## Sources
@@ -25,7 +25,7 @@
 - - (2) Signals
 
 ## This chapter :
-- We add a feature to toggle the completed state of a todo item.
+- We add an autofocus when editing a todo item, this eliminates need to double click on text.
 - 
 
 ### Refrences :
