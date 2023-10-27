@@ -1,7 +1,15 @@
 <!-- <p>todo works!</p> -->
-<li>
-    <div class="view">
-        <label>{{todoObject.todoText}}</label>
-    </div>
+<li [ngClass]="{ editing: isEditingTodo }">
+  <div class="view">
+    <label (dblclick)="setTodoInEditMode()">{{ todoObject.todoText }}</label>
+  </div>
+  <ng-container *ngIf="isEditingTodo">
+    <input
+      class="edit"
+      type="text"
+      [value]="editingText"
+      (keyup)="changeText($event)"
+      (keyup.enter)="submitTodo()"
+    />
+  </ng-container>
 </li>
-

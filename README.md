@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-07-todo-comp
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=1741
+- Chapter / Branch name: chp-08-todo-comp-editor
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=1889
 
 
 ## Sources
@@ -25,9 +25,7 @@
 - - (2) Signals
 
 ## This chapter :
-- We implement a todo component for a single todo item in the main comp list.
-- We wireup the new component into the main comp html, passing each todoItem from the *ngFor to the todo component.
-
+- We add a feature to edit a specific todo item by its id.
 
 ### Refrences :
 
