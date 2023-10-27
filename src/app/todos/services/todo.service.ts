@@ -68,4 +68,24 @@ export class TodosService {
   removeTodo(id: string): void{
     this.todoSignal$.update( (todos) => todos.filter ( (todo) => todo.id !== id));
   }
+
+  toggleTodoSvc(id: string){
+    this.todoSignal$.update(
+      (todos) =>
+        todos.map((todoObj) => {
+          if (todoObj.id === id) {
+            // Copy the todoObj object int newTodoObj
+            const newTodoObj = { ...todoObj };
+
+            // Modify the newTodoObj by changing the value of its todoText property
+            newTodoObj.isCompleted = !todoObj.isCompleted;
+
+            // Return the modified newTodoObj object
+            return newTodoObj;
+          } else {
+            return todoObj;
+          }
+        }) //map
+    );
+  }
 }

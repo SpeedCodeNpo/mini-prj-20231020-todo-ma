@@ -38,4 +38,8 @@ export class TodoComponent implements OnInit {
   deleteTodo(){
     this.todosService.removeTodo(this.todoObject.id);
   }
+
+  toggleTodo(){
+    this.todosService.toggleTodoSvc(this.todoObject.id);
+  }
 }
