@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-08-todo-comp-editor
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=1889
+- Chapter / Branch name: chp-09-delete-todo
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=2396
 
 
 ## Sources
@@ -25,7 +25,8 @@
 - - (2) Signals
 
 ## This chapter :
-- We add a feature to edit a specific todo item by its id.
+- We add a feature to delete a todo item by its id.
+- We modify the todo service by adding a delete todo method
 
 ### Refrences :
 

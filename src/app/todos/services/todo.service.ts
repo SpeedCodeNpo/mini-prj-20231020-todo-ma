@@ -64,4 +64,8 @@ export class TodosService {
         }) //map
     );
   } // modifyTodo
+
+  removeTodo(id: string): void{
+    this.todoSignal$.update( (todos) => todos.filter ( (todo) => todo.id !== id));
+  }
 }

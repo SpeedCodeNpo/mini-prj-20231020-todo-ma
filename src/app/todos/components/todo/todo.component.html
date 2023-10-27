@@ -2,6 +2,7 @@
 <li [ngClass]="{ editing: isEditingTodo }">
   <div class="view">
     <label (dblclick)="setTodoInEditMode()">{{ todoObject.todoText }}</label>
+    <button class="destroy" (click)="deleteTodo()"></button>
   </div>
   <ng-container *ngIf="isEditingTodo">
     <input
