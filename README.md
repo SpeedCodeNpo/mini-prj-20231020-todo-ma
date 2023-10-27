@@ -25,8 +25,8 @@
 - - (2) Signals
 
 ## This chapter :
-- We add an autofocus when editing a todo item, this eliminates need to double click on text.
-- 
+- We add an autofocus when editing a todo item, this eliminates need to click inisde the text box.
+- We use @ViewChild on the text input field.
 
 ### Refrences :
 
