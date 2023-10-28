@@ -88,4 +88,23 @@ export class TodosService {
         }) //map
     );
   }
+
+toggleAllService(isCompleted: boolean): void{
+  this.todoSignal$.update(
+    (todos) =>
+      todos.map((todoObj) => {
+       
+          // Copy the todoObj object int newTodoObj
+          const newTodoObj = { ...todoObj };
+
+          // Modify the newTodoObj by changing the value of its todoText property
+          newTodoObj.isCompleted = isCompleted;
+
+          // Return the modified newTodoObj object
+          return newTodoObj;
+
+      }) //map
+  );
 }
+
+}//TodosService

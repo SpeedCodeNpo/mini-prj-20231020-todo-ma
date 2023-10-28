@@ -17,7 +17,7 @@ export class MainComponent {
   visibleTodos = computed( () => {
     const todos = this.todosService.todoSignal$();
     const filter = this.todosService.filterSignal$();
-
+    
     if (filter === FilterEnum.active) {
       return todos.filter( todoItem => !todoItem.isCompleted)
     }
@@ -27,8 +27,17 @@ export class MainComponent {
     return todos;
   });
 
+  //The 'every() method returns true if all the todoSignal$() stream elements are true'
+  isAllTodoSelectedSignal$ = computed( () => this.todosService.todoSignal$().every( todo => todo.isCompleted));
+  noTodosSignal = computed( () => this.todosService.todoSignal$().length === 0);
+
   setEditingId(editingIdFromTemplate: string | null):void{
     this.editingId = editingIdFromTemplate;
+  }
+
+  toggleAllTodos(event: Event): void{
+    const target = event.target as HTMLInputElement;
+    this.todosService.toggleAllService(target.checked);
   }
 
 }

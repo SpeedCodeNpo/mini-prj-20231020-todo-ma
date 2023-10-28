@@ -17,7 +17,7 @@ export class FooterComponent {
     return this.todosService.todoSignal$().filter( todoItem => !todoItem.isCompleted).length;
   });
 
-  isHideFooter = computed( () => this.todosService.todoSignal$().length === 0);
+  noTodosSignal = computed( () => this.todosService.todoSignal$().length === 0);
   itemsLeftText = computed( () => `item${ this.activeCount() !== 1 ? "s" : "" } left`);
 
   changeFilter(event: Event, filterName: FilterEnum ): void {

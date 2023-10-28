@@ -1,5 +1,15 @@
 <!-- <p>main works!</p> -->
-<section class="main">
+<section class="main" [ngClass]="{hidden: noTodosSignal()}">
+  <!-- The following checkbox input does not display anything on the screen, so we use the label 
+  element below to be a GUI for user to interact with this input. -->
+  <input
+    id="toggle-all"
+    class="toggle-all"
+    type="checkbox"
+    [checked]="isAllTodoSelectedSignal$()"
+    (change)="toggleAllTodos($event)"
+  />
+  <label for="toggle-all">Mark all as completed</label>
   <ul class="todo-list">
     <app-todos-todo
       *ngFor="let todoItem of visibleTodos()"

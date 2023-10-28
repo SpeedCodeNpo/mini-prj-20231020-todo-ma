@@ -1,8 +1,8 @@
 # Speedcoding Mini Projects
 
 - Project id: mini-prj-20231020-todo-ma
-- Chapter / Branch name: chp-11-auto-focus-edit
-- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=2665
+- Chapter / Branch name: chp-12-toggle-all
+- Chapter video link: https://youtu.be/wq4ZlpEg5jw?t=2757
 
 
 ## Sources
@@ -25,8 +25,9 @@
 - - (2) Signals
 
 ## This chapter :
-- We add an autofocus when editing a todo item, this eliminates need to double click on text.
-- 
+- We add a checkbox input element to toggle on/off completed state of all tasks at once.
+- In the main comp we add the input element.
+- In the service we add a function to do the toggle all 
 
 ### Refrences :
 
